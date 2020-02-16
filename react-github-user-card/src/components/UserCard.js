@@ -36,6 +36,7 @@ class UserCard extends React.Component {
          <Card className="App">
            <CardBody>
            <CardImg width='300' src={this.state.users.avatar_url} alt={this.state.users.id} />
+           <div className="icon-container"><i class="fab fa-github"></i></div>
              <CardTitle><strong>{this.state.users.login}</strong></CardTitle>
              <CardText>{this.state.users.company}</CardText>
              <CardText>{this.state.users.location}</CardText>
